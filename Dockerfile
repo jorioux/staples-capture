@@ -1,4 +1,4 @@
-FROM windowsservercore
+FROM mcr.microsoft.com/windows/servercore:1809
 
 SHELL ["powershell"]
 RUN $url = 'https://raw.githubusercontent.com/nospaceships/raw-socket-sniffer/master/raw-socket-sniffer.ps1' ; \
